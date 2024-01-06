@@ -108,9 +108,35 @@ nav a {
 }
 
 /* Main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 100px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.info-dsp{
+    color: #474747;
+    margin-top: 5px;
+    font-weight: 700;
 }
